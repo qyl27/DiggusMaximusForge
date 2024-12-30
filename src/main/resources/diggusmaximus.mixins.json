@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "cx.rain.mc.diggus_maximus_forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinBlock",
+    "MixinCancelDurability",
+    "MixinServerPlayerInteractionManager"
+  ],
+  "client": [
+    "client.MixinClientPlayerInteractionManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
